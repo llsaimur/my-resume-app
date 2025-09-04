@@ -135,7 +135,6 @@ export function HeroSection({ data }: HeroSectionProps) {
 
   return (
     <Section id="hero" className="relative overflow-hidden bg-black h-screen">
-      {/* Subtle terminal-like background */}
       <div className="absolute inset-0 z-0 bg-black">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-green-900/10 to-black animate-pulse"></div>
         <div className="absolute inset-0 border-t border-green-800/20"></div>
@@ -143,18 +142,17 @@ export function HeroSection({ data }: HeroSectionProps) {
       </div>
 
       {/* Rabbit */}
-    <motion.div
-        className="absolute w-12 h-12 cursor-pointer z-20"
-        style={{
-            backgroundImage: "url('/rabbit.png')",
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-        }}
-        animate={{ x: rabbitPos.x, y: rabbitPos.y }}
-        transition={{ duration: 2, ease: "easeInOut" }}
-        onClick={() => setShowInfo(true)}
-        />
-
+      <motion.div
+      className="absolute w-12 h-12 cursor-pointer z-20"
+      style={{
+        backgroundImage: "url('/rabbit.png')",
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+      }}
+      animate={{ x: rabbitPos.x, y: rabbitPos.y }}
+      transition={{ duration: 2, ease: "easeInOut" }}
+      onClick={() => setShowInfo(true)}
+      />
 
       {/* Hero terminal prompt */}
       <div className="relative z-10 flex flex-col items-start justify-center h-full px-8 text-green-400 font-mono select-none">
