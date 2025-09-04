@@ -1,4 +1,4 @@
-import { Header } from './components/sections/Header';
+import { Header } from './components/layout/Header';
 import { HeroSection } from './components/sections/HeroSection';
 import { ExperienceSection } from './components/sections/ExperienceSection';
 import { ProjectsSection } from './components/sections/ProjectsSection';
@@ -8,7 +8,7 @@ import { SkillsSection } from './components/sections/SkillsSection';
 // JSON imports - keep your existing imports but update the types
 import resumeRaw from './data/resume.json';
 import projectsRaw from './data/projects.json';
-import technicalSkillsRaw from './data/technicalskills.json';
+import technicalSkillsRaw from './data/technicalSkills.json';
 import educationRaw from './data/education.json';
 
 import type { ResumeData, ProjectsData, EducationData, TechnicalSkillsData } from './types/index';

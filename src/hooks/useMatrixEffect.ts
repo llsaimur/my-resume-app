@@ -37,7 +37,7 @@ export function useMatrixText(text: string, config: Partial<MatrixConfig> = {}) 
   useEffect(() => {
     const interval = setInterval(() => {
       setChars(prev =>
-        prev.map((c, i) =>
+        prev.map((_, i) =>
           Math.random() < 0.02
             ? mergedConfig.chars[Math.floor(Math.random() * mergedConfig.chars.length)]
             : text[i]
