@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Rate-Limited URL Shortener",
+      "description": "Scalable URL-shortening service with API-key auth and Redis token-bucket rate limiting, following clean-architecture patterns and Docker-orchestrated micro-services.",
+      "tech": ["ASP.NET Core", "Angular", "Redis", "PostgreSQL", "Docker"],
+      "repo": "https://github.com/llsaimur/rate-limited-url-shortener",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "name": "Employee Manager Suite",
+      "description": "Multiple CRUD variants of an employee-management app showcasing MVC, Razor Pages, Web API + jQuery, Angular, and Blazor stacks, using async/await, EF Core, and JWT-secured calls.",
+      "tech": ["ASP.NET Core", "EF Core", "SQL Server", "Angular", "Blazor", "jQuery", "JWT"],
+      "repo": "https://github.com/llsaimur/EmployeeManager.Mvc",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "name": "Marketplace",
+      "description": "Online multi-shop marketplace with product management, search listings, and end-to-end shopping-cart flow, implemented using the MERN stack with JWT authentication.",
+      "tech": ["MongoDB", "Express", "React", "Node.js", "JWT"],
+      "repo": "https://github.com/llsaimur/marketplace",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "name": "FinanceTracker",
+      "description": "Full-stack personal finance management app with account, transaction, and budget tracking, real-time balance updates, category-wise budgets, and dashboard insights. User authentication and session management secured via JWT.",
+      "tech": ["ASP.NET Core Web API", "Razor Pages", "MongoDB", "JWT", "Bootstrap 5"],
+      "repo": "https://github.com/llsaimur/FinanceTracker",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "name": "Expense Tracker",
+      "description": "Full-stack expense tracking system with CRUD operations, category-wise expenditure analytics, and interactive data visualization using MongoDB aggregation and Victory charts.",
+      "tech": ["MongoDB", "Express", "React", "Node.js", "Victory", "JWT"],
+      "repo": "https://github.com/llsaimur/expense_tracker",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "name": "Classroom",
+      "description": "Online classroom platform supporting multiple roles (educator/student), with course creation, lesson management, enrollment, progress tracking, and instructor analytics. Full-stack integration with backend APIs and React components.",
+      "tech": ["MongoDB", "Express", "React", "Node.js", "JWT"],
+      "repo": "https://github.com/llsaimur/Classroom",
+      "link": ""
+    }
+  ]
+}

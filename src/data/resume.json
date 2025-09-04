@@ -1,0 +1,30 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "role": "Software Developer Intern",
+      "company": "Genetec",
+      "startDate": "Jul 2024",
+      "endDate": "Aug 2025",
+      "location": "Montreal, QC",
+      "bullets": [
+        "Disaster Recovery Tool → Recovered terabytes of video/GPS data from crashed vehicle hard drives by extracting proprietary video formats, restoring MSSQL timelines, aligning streams, and packaging everything into a portable, plugin-free offline player.",
+        "Health Monitoring Service → Implemented a configurable UI allowing users to choose status types & severity levels, with backend event screening to prevent duplicate alerts and provide early visibility.",
+        "Clever Devices Simulator → Developed a TCP/IP server to emulate field hardware, handling full request/response cycles for integration and CI tests, removing dependency on physical devices.",
+        "License Usage Dashboard → Built a client to monitor product license metrics in real time, compute per-connection usage, and surface current capacity to prevent over-allocation.",
+        "Simulated Data Provider → Built an end-to-end WPF interface to capture user input, generate pipeline configs, and launch simulations, enabling QA and dev teams to run tests faster without manual setup."
+      ],
+      "technologies": [".NET Framework 4.8", "C#", "ASP.NET", "WPF (MVVM)", "MSSQL", "Azure DevOps", "Git", "TCP/IP"]
+    }
+  ],
+  "name": "Mohammad Saimur Rashid",
+  "title": "Software Developer",
+  "summary": "Hi, I’m Saimur. I build software that works. Systems that adapt, problems I solve, solutions I craft—practical, maintainable, precise.",
+  "contact": 
+    {
+      "email": "rashidsaimur@icloud.com",
+      "phone": "",
+      "linkedin": "https://www.linkedin.com/in/mohammad-saimur-rashid/",
+      "github": "https://github.com/llsaimur"
+    }
+  }

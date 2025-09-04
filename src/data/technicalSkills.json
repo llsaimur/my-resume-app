@@ -1,0 +1,27 @@
+{
+  "technicalSkills": [
+    "C# (.NET Framework 4.8 / .NET 8)",
+    "ASP.NET Core",
+    "WPF (MVVM)",
+    "Entity Framework",
+    "JavaScript / TypeScript",
+    "Angular",
+    "React",
+    "Blazor",
+    "Java",
+    "RESTful APIs",
+    "WebSockets",
+    "TCP/UDP socket programming",
+    "MQTT",
+    "Multithreading & asynchronous patterns",
+    "SQL Server (MSSQL)",
+    "PostgreSQL",
+    "MongoDB",
+    "Firebase",
+    "Azure DevOps (CI/CD pipelines, boards)",
+    "Git, GitHub Actions",
+    "Unit & integration testing",
+    "Clean Code, SOLID, design patterns",
+    "Agile / Scrum"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "education": [
+    {
+      "id": "1",
+      "degree": "Diploma of College Studies (DEC), Computer Science",
+      "school": "LaSalle College, Montréal",
+      "period": "Aug 2023 – May 2025",
+      "notes": [
+        "Key coursework: Operating Systems, Networking, Data Structures, Multi-tier Application Development, Mobile Development (Android/iOS)"
+      ]
+    },
+    {
+      "id": "2",
+      "degree": "High School Diploma, Bilingual Program",
+      "school": "LaurenHill Academy, Montréal",
+      "period": "2013 – 2018",
+      "notes": [
+        "Focus on High Mathematics and Sciences",
+        "Completed in a bilingual French-English program"
+      ]
+    }
+  ]
+}
