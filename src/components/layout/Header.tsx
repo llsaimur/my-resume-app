@@ -101,12 +101,14 @@ export function Header({ data }: HeaderProps) {
 
       <div className="max-w-7xl mx-auto px-6 sm:px-12 py-4 flex justify-between items-center relative z-10">
         {/* Logo */}
-        <motion.div
-          className="text-green-400 font-mono font-bold text-xl cursor-pointer select-none"
+         <motion.a
+          href="/resume.pdf"
+          download
+          className="text-green-400 font-mono font-bold text-lg hover:text-green-100 transition-colors px-3 py-1 border border-green-700 rounded cursor-pointer select-none"
           whileHover={{ scale: 1.05, textShadow: "0 0 8px rgba(0,255,0,0.7)" }}
         >
-          {""}
-        </motion.div>
+          Download Resume
+        </motion.a>
 
         <DesktopNavigation links={links} />
 
